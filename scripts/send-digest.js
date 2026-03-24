@@ -70,7 +70,7 @@ async function main() {
       'Authorization': `Bearer ${RESEND_API_KEY}`,
     },
     body: JSON.stringify({
-      from: 'AI Builders Digest <digest@resend.dev>',
+      from: 'AI Builders Digest <onboarding@resend.dev>',
       to: [TO_EMAIL],
       subject: `AI Builders Digest — ${today}`,
       text: digest,
